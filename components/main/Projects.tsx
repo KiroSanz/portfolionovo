@@ -8,23 +8,23 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        My Projects
+        Meus Projetos
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Galeria Gicaro"
+          description="Galeria para casal, onde constava com API de musica, vídeo e também cards de mensagens com fotos nas mesmas, efeitos de grayscale e transition."
         />
         <ProjectCard
           src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Portfólio Giovanna Albuquerque"
+          description="Portfólio criado para arquiteta Giovanna Albuquerque, no qual consiste em uma landing page com imagens de projetos, com também, formulário para o cliente entrar em contato com a profíssional."
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Site de Gerenciamento de Finanças"
+          description="Esse site foi gerado para auxiliar no dia-a-dia nossa gestão de finanças, para que tenhamos praticidade e rapidez nas organizações financeiras!."
         />
       </div>
     </div>
